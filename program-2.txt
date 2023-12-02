@@ -1,0 +1,43 @@
+Write a Python program to do arithmetical operations
+# Store input numbers: 
+num1 = input('Enter first number: ') 
+num2 = input('Enter second number: ') 
+ 
+# Add two numbers 
+sum = float(num1) + float(num2) 
+# Subtract two numbers 
+min = float(num1) - float(num2) 
+# Multiply two numbers 
+mul = float(num1) * float(num2) 
+#Divide two numbers 
+div = float(num1) / float(num2) 
+#Divide floor two numbers 
+divf = float(num1) // float(num2)
+#Modulus two numbers 
+Modul = int(num1) % int(num2)
+#Power or Exponent two numbers
+expo = int(num1) ** int(num2) 
+# Display the sum 
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum)) 
+ # Display the subtraction 
+print('The subtraction of {0} and {1} is {2}'.format(num1, num2, min)) 
+# Display the multiplication 
+print('The multiplication of {0} and {1} is {2}'.format(num1, num2, mul)) 
+# Display the division 
+print('The division of {0} and {1} is {2}'.format(num1, num2, div))
+# Display the division floor
+print('The division floor of {0} and {1} is {2}'.format(num1, num2, divf))
+# Display the Modulus 
+print('The Modulus of {0} and {1} is {2}'.format(num1, num2, Modul))
+# Display the Power or Exponent 
+print('The exponent or power of {0} and {1} is {2}'.format(num1, num2, expo))
+Output:
+Enter first number: 3
+Enter second number: 2
+The sum of 3 and 2 is 5.0
+The subtraction of 3 and 2 is 1.0 
+The multiplication of 3 and 2 is 6.0
+The division of 3 and 2 is 1.0
+The division floor of 3 and 2 is 1
+The Modulus of 3 and 2 is 1
+The power of 3 and 2 is 6
